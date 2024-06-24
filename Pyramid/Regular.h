@@ -5,7 +5,7 @@
 using namespace std;
 
 template <typename T>
-class Regular : public Pyramid
+class Regular : public Pyramid<T>
 {
 protected:
 	int sideSquare;
